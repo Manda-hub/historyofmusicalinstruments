@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A website for the musical instrument history. Disclaimer: Πρόκειται για εργασία στο πλαίσιο εξέτασης του μαθήματος" />
+    <meta name="author" content="" />
+    <title>Musical Instrument History Database</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/home.js"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/bootstrap.rtl.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top"><img src="img/logo.png" alt="..." /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#instruments">Musical Instruments</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Header-->
+<header class="masthead" id="home">
+    <div class="container">
+        <div class="masthead-subheading">Welcome To</div>
+        <div class="masthead-heading text-uppercase">History of Musical Instruments</div>
+
+        <a class="btn btn-primary btn-xl text-uppercase" href="#instruments">Go to Instruments</a>
+        <div class="masthead-disclaimer">Disclaimer: Το παρών website πρόκειται για εργασία στο πλαίσιο εξέτασης του μαθήματος</div>
+
+    </div>
+</header>
+
+<!-- Musical Instruments section -->
+<section class="page-section bg-light" id="instruments">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Musical Instruments</h2>
+            <h3 class="section-subheading text-muted">The evolution of the musical instruments</h3>
+            <div class="embed-responsive embed-responsive-16by9" id="youtube">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_j4sDT5cRpc?rel=0" allowfullscreen></iframe>
+            </div>
+            <h4 class="section-subheading text-muted">Music is a form of art, which originates from the Greek word meaning "art of the Muses." In ancient Greece, the Muses were the goddesses who inspired the arts, such as literature, music, and poetry.</h4>
+            <h4 class="section-subheading text-muted">Music has been played since the dawn of human history using instruments and through vocal singing. Although it is uncertain how and when the first musical instrument was invented, most historians point to early flutes made from animal bones that are at least 37,000 years old. The oldest known written song dates back 4,000 years and was written in ancient cuneiform script.</h4>
+            <h4 class="section-subheading text-muted">Instruments were created to produce musical sounds. Any object that produces sound can be considered a musical instrument, especially if it is designed for that purpose. Take a look at the various instruments that have appeared over the centuries from different parts of the world.</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Accordion -->
+                <div class="instrument-item">
+                    <a class="instrument-link" data-bs-toggle="modal" href="#accordion">
+                        <div class="instrument-hover">
+                            <div class="instrument-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/instruments/accordion.jpg" alt="..." />
+                    </a>
+                    <div class="instrument-caption">
+                        <div class="instrument-caption-heading">Accordion</div>
+                        <div class="instrument-caption-subheading text-muted">A fascinating and versatile musical instrument</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Clarinet -->
+                <div class="instrument-item">
+                    <a class="instrument-link" data-bs-toggle="modal" href="#clarinet">
+                        <div class="instrument-hover">
+                            <div class="instrument-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/instruments/clarinet.jpg" alt="..." />
+                    </a>
+                    <div class="instrument-caption">
+                        <div class="instrument-caption-heading">Clarinet</div>
+                        <div class="instrument-caption-subheading text-muted">A single-reed musical instrument in the woodwind family</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Bass -->
+                <div class="instrument-item">
+                    <a class="instrument-link" data-bs-toggle="modal" href="#bass">
+                        <div class="instrument-hover">
+                            <div class="instrument-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/instruments/bass.jpg" alt="..." />
+                    </a>
+                    <div class="instrument-caption">
+                        <div class="instrument-caption-heading">Contrabass</div>
+                        <div class="instrument-caption-subheading text-muted">A majestic instrument that has played a pivotal role in orchestras, jazz bands, and various musical genres for centuries</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <!-- Pipe Organ-->
+                <div class="instrument-item">
+                    <a class="instrument-link" data-bs-toggle="modal" href="#pipeorgan">
+                        <div class="instrument-hover">
+                            <div class="instrument-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/instruments/pipeorgan.jpg" alt="..." />
+                    </a>
+                    <div class="instrument-caption">
+                        <div class="instrument-caption-heading">Pipe Organ</div>
+                        <div class="instrument-caption-subheading text-muted">One of the oldest instruments still used in European classical music</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                <!-- Guitar-->
+                <div class="instrument-item">
+                    <a class="instrument-link" data-bs-toggle="modal" href="#guitar">
+                        <div class="instrument-hover">
+                            <div class="instrument-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/instruments/guitar.jpg" alt="..." />
+                    </a>
+                    <div class="instrument-caption">
+                        <div class="instrument-caption-heading">Guitar</div>
+                        <div class="instrument-caption-subheading text-muted">A stringed musical instrument that is usually fretted and typically has six or twelve strings</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <!-- Piano -->
+                <div class="instrument-item">
+                    <a class="instrument-link" data-bs-toggle="modal" href="#piano">
+                        <div class="instrument-hover">
+                            <div class="instrument-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/instruments/piano.jpg" alt="..." />
+                    </a>
+                    <div class="instrument-caption">
+                        <div class="instrument-caption-heading">Piano</div>
+                        <div class="instrument-caption-subheading text-muted">A keyboard instrument that produces sound when its keys are depressed, activating an action mechanism where hammers strike strings</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-->
+<section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</h3>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/about/beginning.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2015-2017</h4>
+                        <h4 class="subheading">The beginning</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">A personal interest in music and musical instruments lead us to do research on how the music was evolved together with its instruments.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/about/team.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2017-2021</h4>
+                        <h4 class="subheading">A team was created</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">People with similar interests joined our journey.</p></div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/about/facebook.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>January 2022</h4>
+                        <h4 class="subheading">Facebook page created</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">The first attempt to share our research and knowledge on musical instruments took place when the facebook page was created <a href="https://www.facebook.com/share/19F2SDLEuN/">facebook</a></p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/about/logo.jpg" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>May 2025</h4>
+                        <h4 class="subheading">Website</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-muted">After the social network experience a website was created.</p></div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>
+                        Be Part
+                        <br />
+                        Of Our
+                        <br />
+                        Story!
+                    </h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Contact-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            
+        </div>
+        <div class="row align-items-stretch mb-5">
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12588.914912960305!2d23.591312614459305!3d38.46018893832314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a11798f88df1e9%3A0x2958e0167b6ba9d5!2zzpXPg8-Ezq_OsSDOk869z47Pg863z4IgzqfOsc67zrrOr860zrHPgiAtIM6az4zOus66zrnOvc6_IM6jz4DOr8-Ezrk!5e0!3m2!1sel!2sgr!4v1747738738678!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="section-subheading">Our office is in "kokkino spiti - Red House" in Chalkida. The full addres is: Kokkino spiti, Dim. Karaoli, Chalkida 34100 </h3>
+            </div>
+        </div>
+        <form id="contactForm">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <!-- Name input-->
+                        <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                    </div>
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <!-- Phone number input-->
+                        <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <!-- Message input-->
+                        <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center text-white mb-3">
+                    <div class="fw-bolder">Form submission successful!</div>
+                    <br />
+                </div>
+            </div>
+            <!-- Submit Button-->
+            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
+        </form>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-lg-start">Copyright &copy; History of Musical Instruments 2025</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Instrument Modals-->
+<!-- Instrument item accordion modal popup-->
+<div class="instrument-modal modal fade" id="accordion" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.svg" alt="Close popup" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Instrument details-->
+                            <h2 class="text-uppercase">Accordion</h2>
+                            <p class="item-intro text-muted">A fascinating and versatile musical instrument</p>
+                            <img class="img-fluid d-block mx-auto" src="img/instruments/accordion.jpg" alt="..." />
+                            <p>The accordion is a portable, box-shaped musical instrument that produces sound by pushing air through reeds using a bellows. It is played by compressing or expanding the bellows while pressing buttons or keys, which open valves to allow air to flow across metal reeds tuned to specific pitches. The accordion is used in a wide variety of musical genres, including folk, classical, jazz, and popular music, and has a strong cultural presence in regions such as Europe, South America, and North America. It typically comes in two main types: the piano accordion, which has a keyboard similar to a piano, and the button accordion, which uses buttons for both melody and bass.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Inventor:</strong>
+                                    Friedrich Buschmann
+                                </li>
+                                <li>
+                                    <strong>Inception Year:</strong>
+                                    1822
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Instrument item clarinet modal popup-->
+<div class="instrument-modal modal fade" id="clarinet" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.svg" alt="Close popup" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Instrument details-->
+                            <h2 class="text-uppercase">Clarinet</h2>
+                            <p class="item-intro text-muted">A single-reed musical instrument in the woodwind family</p>
+                            <img class="img-fluid d-block mx-auto" src="img/instruments/clarinet.jpg" alt="..." />
+                            <p>The clarinet is a woodwind instrument with a single-reed mouthpiece, a straight cylindrical body, and a flared bell. It is typically made of wood or plastic and has a wide range of notes and dynamic expression, making it a versatile instrument used in classical, jazz, and contemporary music. The clarinet produces sound when the player blows air through the mouthpiece, causing the reed to vibrate. It has a system of tone holes and keys that the player operates with their fingers to change the pitch. The most common type is the B♭ clarinet, but there are several other types in different keys, including the A and bass clarinets.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Inventor:</strong>
+                                    Johann Denner
+                                </li>
+                                <li>
+                                    <strong>Inception Year:</strong>
+                                    Late 1600s
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Instrument item bass modal popup-->
+<div class="instrument-modal modal fade" id="bass" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.svg" alt="Close popup" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Instrument details-->
+                            <h2 class="text-uppercase">Contrabasse</h2>
+                            <p class="item-intro text-muted">A majestic instrument that has played a pivotal role in orchestras, jazz bands, and various musical genres for centuries</p>
+                            <img class="img-fluid d-block mx-auto" src="img/instruments/bass.jpg" alt="..." />
+                            <p>The Contrabasse, also known as the upright bass or contrabass, is the largest and lowest-pitched bowed string instrument in the orchestra. It typically has four strings and is played either by plucking (pizzicato) or using a bow (arco). Due to its deep, rich tones, it plays a foundational role in classical music ensembles, jazz bands, and various other music genres. The double bass is unique among the string family in that it is tuned in fourths, unlike the violin, viola, and cello, which are tuned in fifths.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Inventor:</strong>
+                                    Domenico Dragonetti
+                                </li>
+                                <li>
+                                    <strong>Inception Year:</strong>
+                                    1516
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Instrument item pipe organ modal popup-->
+<div class="instrument-modal modal fade" id="pipeorgan" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.svg" alt="Close popup" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Instrument details-->
+                            <h2 class="text-uppercase">Pipe Organ</h2>
+                            <p class="item-intro text-muted">One of the oldest instruments still used in European classical music</p>
+                            <img class="img-fluid d-block mx-auto" src="img/instruments/pipeorgan.jpg" alt="..." />
+                            <p>The pipe organ is a grand and complex keyboard instrument that produces sound by forcing air through pipes selected by the player via keyboards and pedalboard. Each pipe corresponds to a specific pitch and timbre, and the organ can have thousands of pipes arranged in ranks. It is often found in churches, cathedrals, and concert halls due to its powerful and majestic sound. The pipe organ is known for its versatility and ability to sustain notes indefinitely, making it a central instrument in liturgical and classical music.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Inventor:</strong>
+                                    Ctesibius of Alexandria
+                                </li>
+                                <li>
+                                    <strong>Inception Year:</strong>
+                                    3rd century BC
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Instrument item guitar modal popup-->
+<div class="instrument-modal modal fade" id="guitar" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.svg" alt="Close popup" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Instrument details-->
+                            <h2 class="text-uppercase">Guitar</h2>
+                            <p class="item-intro text-muted">A stringed musical instrument that is usually fretted and typically has six or twelve strings</p>
+                            <img class="img-fluid d-block mx-auto" src="img/instruments/guitar.jpg" alt="..." />
+                            <p>The guitar is a popular stringed instrument typically with six strings, played by strumming or plucking with the fingers or a pick. It is used in a wide range of musical styles, from classical and flamenco to rock, blues, and pop. Guitars can be acoustic, using a hollow body to amplify the sound naturally, or electric, relying on electronic amplification. The instrument is known for its expressiveness, portability, and versatility, and it plays both melodic and harmonic roles in music.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Inventor:</strong>
+                                    people of Malaga
+                                </li>
+                                <li>
+                                    <strong>Inception Year:</strong>
+                                    15th century
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Instrument item piano modal popup-->
+<div class="instrument-modal modal fade" id="piano" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close-icon.svg" alt="Close popup" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Instrument details-->
+                            <h2 class="text-uppercase">Piano</h2>
+                            <p class="item-intro text-muted">A keyboard instrument that produces sound when its keys are depressed, activating an action mechanism where hammers strike strings</p>
+                            <img class="img-fluid d-block mx-auto" src="img/instruments/piano.jpg" alt="..." />
+                            <p>The piano is a widely used keyboard instrument that produces sound by striking strings with hammers when keys are pressed. It has 88 keys, allowing for a broad range of notes and dynamics, making it suitable for solo, ensemble, and orchestral music. The piano can play both melody and harmony simultaneously and is used in nearly every musical genre, including classical, jazz, pop, and film music. Its ability to convey a wide range of emotions and styles has made it one of the most important instruments in Western music.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    <strong>Inventor:</strong>
+                                    Bartolomeo Cristofori
+                                </li>
+                                <li>
+                                    <strong>Inception Year:</strong>
+                                    1700s
+                                </li>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
